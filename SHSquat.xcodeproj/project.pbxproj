@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD33E10018DD439E007038DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD33E0FF18DD439E007038DE /* Foundation.framework */; };
+		CD33E10218DD439E007038DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD33E10118DD439E007038DE /* CoreGraphics.framework */; };
+		CD33E10418DD439E007038DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD33E10318DD439E007038DE /* UIKit.framework */; };
+		CD33E10A18DD439E007038DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD33E10818DD439E007038DE /* InfoPlist.strings */; };
+		CD33E10C18DD439E007038DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD33E10B18DD439E007038DE /* main.m */; };
+		CD33E11018DD439E007038DE /* SHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD33E10F18DD439E007038DE /* SHAppDelegate.m */; };
+		CD33E11318DD439E007038DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD33E11118DD439E007038DE /* Main.storyboard */; };
+		CD33E11618DD439E007038DE /* SHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD33E11518DD439E007038DE /* SHViewController.m */; };
+		CD33E11818DD439E007038DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD33E11718DD439E007038DE /* Images.xcassets */; };
+		CD33E11F18DD439E007038DE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD33E11E18DD439E007038DE /* XCTest.framework */; };
+		CD33E12018DD439E007038DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD33E0FF18DD439E007038DE /* Foundation.framework */; };
+		CD33E12118DD439E007038DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD33E10318DD439E007038DE /* UIKit.framework */; };
+		CD33E12918DD439E007038DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD33E12718DD439E007038DE /* InfoPlist.strings */; };
+		CD33E12B18DD439E007038DE /* SHSquatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD33E12A18DD439E007038DE /* SHSquatTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD33E12218DD439E007038DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD33E0F418DD439E007038DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD33E0FB18DD439E007038DE;
+			remoteInfo = SHSquat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD33E0FC18DD439E007038DE /* SHSquat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHSquat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD33E0FF18DD439E007038DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD33E10118DD439E007038DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD33E10318DD439E007038DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD33E10718DD439E007038DE /* SHSquat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SHSquat-Info.plist"; sourceTree = "<group>"; };
+		CD33E10918DD439E007038DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD33E10B18DD439E007038DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD33E10D18DD439E007038DE /* SHSquat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SHSquat-Prefix.pch"; sourceTree = "<group>"; };
+		CD33E10E18DD439E007038DE /* SHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHAppDelegate.h; sourceTree = "<group>"; };
+		CD33E10F18DD439E007038DE /* SHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHAppDelegate.m; sourceTree = "<group>"; };
+		CD33E11218DD439E007038DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD33E11418DD439E007038DE /* SHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHViewController.h; sourceTree = "<group>"; };
+		CD33E11518DD439E007038DE /* SHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHViewController.m; sourceTree = "<group>"; };
+		CD33E11718DD439E007038DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD33E11D18DD439E007038DE /* SHSquatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHSquatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD33E11E18DD439E007038DE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CD33E12618DD439E007038DE /* SHSquatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SHSquatTests-Info.plist"; sourceTree = "<group>"; };
+		CD33E12818DD439E007038DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD33E12A18DD439E007038DE /* SHSquatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHSquatTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD33E0F918DD439E007038DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD33E10218DD439E007038DE /* CoreGraphics.framework in Frameworks */,
+				CD33E10418DD439E007038DE /* UIKit.framework in Frameworks */,
+				CD33E10018DD439E007038DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD33E11A18DD439E007038DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD33E11F18DD439E007038DE /* XCTest.framework in Frameworks */,
+				CD33E12118DD439E007038DE /* UIKit.framework in Frameworks */,
+				CD33E12018DD439E007038DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD33E0F318DD439E007038DE = {
+			isa = PBXGroup;
+			children = (
+				CD33E10518DD439E007038DE /* SHSquat */,
+				CD33E12418DD439E007038DE /* SHSquatTests */,
+				CD33E0FE18DD439E007038DE /* Frameworks */,
+				CD33E0FD18DD439E007038DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD33E0FD18DD439E007038DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD33E0FC18DD439E007038DE /* SHSquat.app */,
+				CD33E11D18DD439E007038DE /* SHSquatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD33E0FE18DD439E007038DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD33E0FF18DD439E007038DE /* Foundation.framework */,
+				CD33E10118DD439E007038DE /* CoreGraphics.framework */,
+				CD33E10318DD439E007038DE /* UIKit.framework */,
+				CD33E11E18DD439E007038DE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD33E10518DD439E007038DE /* SHSquat */ = {
+			isa = PBXGroup;
+			children = (
+				CD33E10E18DD439E007038DE /* SHAppDelegate.h */,
+				CD33E10F18DD439E007038DE /* SHAppDelegate.m */,
+				CD33E11118DD439E007038DE /* Main.storyboard */,
+				CD33E11418DD439E007038DE /* SHViewController.h */,
+				CD33E11518DD439E007038DE /* SHViewController.m */,
+				CD33E11718DD439E007038DE /* Images.xcassets */,
+				CD33E10618DD439E007038DE /* Supporting Files */,
+			);
+			path = SHSquat;
+			sourceTree = "<group>";
+		};
+		CD33E10618DD439E007038DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD33E10718DD439E007038DE /* SHSquat-Info.plist */,
+				CD33E10818DD439E007038DE /* InfoPlist.strings */,
+				CD33E10B18DD439E007038DE /* main.m */,
+				CD33E10D18DD439E007038DE /* SHSquat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD33E12418DD439E007038DE /* SHSquatTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD33E12A18DD439E007038DE /* SHSquatTests.m */,
+				CD33E12518DD439E007038DE /* Supporting Files */,
+			);
+			path = SHSquatTests;
+			sourceTree = "<group>";
+		};
+		CD33E12518DD439E007038DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD33E12618DD439E007038DE /* SHSquatTests-Info.plist */,
+				CD33E12718DD439E007038DE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD33E0FB18DD439E007038DE /* SHSquat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD33E12E18DD439F007038DE /* Build configuration list for PBXNativeTarget "SHSquat" */;
+			buildPhases = (
+				CD33E0F818DD439E007038DE /* Sources */,
+				CD33E0F918DD439E007038DE /* Frameworks */,
+				CD33E0FA18DD439E007038DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHSquat;
+			productName = SHSquat;
+			productReference = CD33E0FC18DD439E007038DE /* SHSquat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD33E11C18DD439E007038DE /* SHSquatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD33E13118DD439F007038DE /* Build configuration list for PBXNativeTarget "SHSquatTests" */;
+			buildPhases = (
+				CD33E11918DD439E007038DE /* Sources */,
+				CD33E11A18DD439E007038DE /* Frameworks */,
+				CD33E11B18DD439E007038DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD33E12318DD439E007038DE /* PBXTargetDependency */,
+			);
+			name = SHSquatTests;
+			productName = SHSquatTests;
+			productReference = CD33E11D18DD439E007038DE /* SHSquatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD33E0F418DD439E007038DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Hyunseo;
+				TargetAttributes = {
+					CD33E11C18DD439E007038DE = {
+						TestTargetID = CD33E0FB18DD439E007038DE;
+					};
+				};
+			};
+			buildConfigurationList = CD33E0F718DD439E007038DE /* Build configuration list for PBXProject "SHSquat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD33E0F318DD439E007038DE;
+			productRefGroup = CD33E0FD18DD439E007038DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD33E0FB18DD439E007038DE /* SHSquat */,
+				CD33E11C18DD439E007038DE /* SHSquatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD33E0FA18DD439E007038DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD33E11818DD439E007038DE /* Images.xcassets in Resources */,
+				CD33E10A18DD439E007038DE /* InfoPlist.strings in Resources */,
+				CD33E11318DD439E007038DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD33E11B18DD439E007038DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD33E12918DD439E007038DE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD33E0F818DD439E007038DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD33E10C18DD439E007038DE /* main.m in Sources */,
+				CD33E11618DD439E007038DE /* SHViewController.m in Sources */,
+				CD33E11018DD439E007038DE /* SHAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD33E11918DD439E007038DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD33E12B18DD439E007038DE /* SHSquatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD33E12318DD439E007038DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD33E0FB18DD439E007038DE /* SHSquat */;
+			targetProxy = CD33E12218DD439E007038DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD33E10818DD439E007038DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD33E10918DD439E007038DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD33E11118DD439E007038DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD33E11218DD439E007038DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD33E12718DD439E007038DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD33E12818DD439E007038DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD33E12C18DD439F007038DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD33E12D18DD439F007038DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD33E12F18DD439F007038DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHSquat/SHSquat-Prefix.pch";
+				INFOPLIST_FILE = "SHSquat/SHSquat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD33E13018DD439F007038DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHSquat/SHSquat-Prefix.pch";
+				INFOPLIST_FILE = "SHSquat/SHSquat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD33E13218DD439F007038DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SHSquat.app/SHSquat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHSquat/SHSquat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SHSquatTests/SHSquatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CD33E13318DD439F007038DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SHSquat.app/SHSquat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHSquat/SHSquat-Prefix.pch";
+				INFOPLIST_FILE = "SHSquatTests/SHSquatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD33E0F718DD439E007038DE /* Build configuration list for PBXProject "SHSquat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD33E12C18DD439F007038DE /* Debug */,
+				CD33E12D18DD439F007038DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD33E12E18DD439F007038DE /* Build configuration list for PBXNativeTarget "SHSquat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD33E12F18DD439F007038DE /* Debug */,
+				CD33E13018DD439F007038DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD33E13118DD439F007038DE /* Build configuration list for PBXNativeTarget "SHSquatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD33E13218DD439F007038DE /* Debug */,
+				CD33E13318DD439F007038DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD33E0F418DD439E007038DE /* Project object */;
+}
